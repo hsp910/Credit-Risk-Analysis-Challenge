@@ -4,7 +4,7 @@
 
 ## Overview 
 
-
+The purpose of this challenge is to use different machine learning models to analyze credit risk to provide a quicker and more reliable loan experience for end users. From this we chose 6 different machine learning models to test on their accuracy and reliability. Doing so would allow us to help find good candidates for loans which would lead to a financial institutions, such as a bank, being able to reduce their default rate on loans they give out. The six machine learning models chosen were and tested with Python's imbalanced-learn and scikit-learn libraries. 
 
 ## Results
 
