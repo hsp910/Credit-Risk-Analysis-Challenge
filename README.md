@@ -45,3 +45,10 @@ Screenshots of the actual code ran supplied below.
 
 ## Summary
 
+In industries such as the financial industry, sensitivity is more valuable than precision when analyzing risk and default rates on loan candidates. This is primarily because banks would use this sort of technology to flag primarily high risk candidates as high risk. Therefore already reducing the default rate they currently have.
+
+On the topic of precision, the precision for high risk candidates was incredibly low for all the models. The highest the precision got was 7% for the Easy Ensemble Classifier tests, and this is obviously still a very poor outcome in terms of precision. To be more precise, the machine learning algorithm was only able to identify roughly 7% of all high risk candidadtes within the data set it was provided for testing. Though for what it is worth, every single model was able to predict low risk individuals with perfect precsiion from the data set.
+
+Back on the topic of sensitivity, which is labeled as recall or 'rec' in the screenshots and tables above, there is a generally higher outcome for these algorithms. The highest recall found in the algorithms was 91% which was found in the Easy Ensemble Classifier algorithm as well. The next two highest recalls were the SMOTEENN Combination Sampling and the Balanced Random Forest Classifier  with 70% and 67% recall respectively.
+
+The final topic to tackle will be the balanced accuracy score of the models. This will likely be the determining factor on which model to use for the future. The accuracy score is used to show how correct the model was. This means the higher the score, the larger precentage of correct predictions the model made on the classifications of individuals in the datasets they were provided. From the table above we can see that once more, the Easy Ensemble Classifier has the highest balanced accuracy score of all the models. With this model proving to have the highest precision, highest sensitivity, and the highest accuracy it only seems reasonable to choose this as the basis for our future analysis and models. 
